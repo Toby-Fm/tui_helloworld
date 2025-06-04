@@ -22,3 +22,6 @@ cmake ..
 make
 ./tui_helloworld
 ```
+
+## Ausgabe vom Programm
+![ausgabe](./assets/images/ausgabe.png)
