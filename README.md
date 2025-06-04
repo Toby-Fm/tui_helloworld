@@ -4,7 +4,7 @@
 ## Genutzt wird
 * C++ (20)
 * Cmake
-* ![FTXUI](https://github.com/ArthurSonzogni/FTXUI)
+* [FTXUI](https://github.com/ArthurSonzogni/FTXUI)
 
 ## install
 ```bash
