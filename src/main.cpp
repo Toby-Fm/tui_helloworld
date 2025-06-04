@@ -14,13 +14,13 @@ int main() {
                 text("Pride") | border | flex,
                 text("Month") | border | flex,
             }),
-            gauge(1) | color(Color::Palette256(9)),
-            gauge(1) | color(Color::Palette256(208)),
-            gauge(1) | color(Color::Palette256(11)),
-            gauge(1) | color(Color::Palette256(10)),
-            gauge(1) | color(Color::Palette256(12)),
-            gauge(1) | color(Color::Palette256(91)),
-        });
+            gauge(1) | color(Color::RGB(255, 0, 0)),
+            gauge(1) | color(Color::RGB(255, 140, 0)),
+            gauge(1) | color(Color::RGB(255, 255, 0)),
+            gauge(1) | color(Color::RGB(0, 255, 0)),
+            gauge(1) | color(Color::RGB(0, 128, 255)),
+            gauge(1) | color(Color::RGB(128, 0, 128)),
+       });
 
     document = document | size(WIDTH, LESS_THAN, 80);
 
