@@ -20,14 +20,14 @@ int main() {
             gauge(1) | color(Color::RGB(0, 255, 0)),
             gauge(1) | color(Color::RGB(0, 128, 255)),
             gauge(1) | color(Color::RGB(128, 0, 128)),
-       });
+        });
 
-    document = document | size(WIDTH, LESS_THAN, 80);
+    //document = document | size(WIDTH, LESS_THAN, 80);
 
-    auto screen = Screen::Create(Dimension::Full(), Dimension::Fit(document));
+    auto screen = Screen::Create(Dimension::Full(), Dimension::Full());
     Render(screen, document);
 
-    std::cout << screen.ToString() << '\0' << std::endl;
+    std::cout << screen.ToString() << std::endl;
 
     return EXIT_SUCCESS;
 }
